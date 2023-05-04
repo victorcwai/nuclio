@@ -15,7 +15,7 @@
 #
 # Build assets stage: builds the dashboard assets (js, html, css, etc)
 #
-ARG NGINX_IMAGE=nginx
+ARG NGINX_IMAGE=nginx:1-bullseye
 ARG NUCLIO_LABEL
 ARG UHTTPC_ARCH=amd64
 ARG NUCLIO_DOCKER_ALPINE_IMAGE
