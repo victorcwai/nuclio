@@ -39,7 +39,7 @@ The Dockerfile will look something like this:
 ```
 ARG NUCLIO_LABEL=latest
 ARG NUCLIO_ARCH=amd64
-ARG NUCLIO_BASE_IMAGE=alpine:3.15
+ARG NUCLIO_BASE_IMAGE=alpine:3.16
 ARG NUCLIO_ONBUILD_IMAGE=nuclio/handler-builder-golang-onbuild:${NUCLIO_LABEL}-${NUCLIO_ARCH}-alpine
 
 # Supplies processor uhttpc, used for healthcheck
